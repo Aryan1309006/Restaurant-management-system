@@ -4,7 +4,17 @@ menu={
     "tea":15,
     "coffee":15,
     "vada pav":18,
-    "Misal pav":50
+    "Misal pav":50,
+    "Margherita Pizza": 250,
+    "Paneer Tikka": 180,
+    "Chicken Biryani": 220,
+    "Veg Burger": 120,
+    "French Fries": 80,
+    "Cold Coffee": 90,
+    "Masala Dosa": 100,
+    "Pav Bhaji": 110,
+    "Gulab Jamun (2 pcs)": 50,
+    "Butter Naan": 35
 }
 
 bill=0
