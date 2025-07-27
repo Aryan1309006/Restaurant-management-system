@@ -21,8 +21,8 @@ bill=0
 
 #First order
 def TakeOrder(menu):
-    print("welcome to our hotel: ")
-    item1=input("what do you prefere: ")
+    print("Welcome to our hotel: ")
+    item1=input("What do you prefere: ")
     check(item1,menu,bill)
 
 
@@ -30,24 +30,24 @@ def TakeOrder(menu):
 def check(item,menu,bill):
     if item in menu:
         bill=bill+menu[item]
-        print(f"bill amount:{bill}")
-        print("please weit for 5 minits...")
+        print(f"Bill amount:{bill}")
+        print("Please weit for 5 minits...")
         want=input("something else you want Yes/ No :")
         if(want=='yes'):
-            item2=input("what you want? :")
+            item2=input("What do you prefere? :")
             check(item2,menu,bill)
 
         else:
-            print(f"your bill is{bill}")
+            print(f"Your bill is{bill}")
 
     else:
-        print("item is not in hotel 😭")
-        print(f"bill amount:{bill}")
+        print("Item is not in hotel")
+        print(f"Bill amount:{bill}")
 
 
 
 print("_______________Hotel Aryan_____________________")
-print("menucard")
+print("Menucard")
 for key,value in menu.items():
     print(f"{key}:{value}")
 print("\n \n")
